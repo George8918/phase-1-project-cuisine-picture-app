@@ -4,7 +4,7 @@ const tabs = document.querySelectorAll('.tablinks');
 const imagesContainer = document.querySelector('.image-container');
 const searchInput = document.querySelector('#search-input');
 const randomizeBtn = document.querySelector('#randomize-btn');
-const clearBtn = document.querySelector('#clear-btn');
+const clearBtn = document.querySelector('#clear-');
 
 
 let currentTab = '';
@@ -58,6 +58,9 @@ tabs.forEach(tab => {
   });
 });
 
+searchInput.addEventListener('input', () => {
+  filterImages(searchInput.value);
+});
 
 clearBtn.addEventListener('click', () => {
   searchInput.value = '';
