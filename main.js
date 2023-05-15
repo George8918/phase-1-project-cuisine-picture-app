@@ -8,7 +8,6 @@ const clearBtn = document.querySelector('#clear-btn');
 let currentTab = '';
 let imagesData = [];
 
-const dataCusine
 
 function fetchImageData(cuisine) {
   fetch(`https://pixabay.com/api/?key=36404956-dbea71482a1b61f69c95cb03c&q=${cuisine}&image_type=photo&per_page=100`)
