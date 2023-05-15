@@ -3,7 +3,8 @@ const imagesContainer = document.querySelector('.image-container');
 const searchInput = document.querySelector('#search-input');
 const randomizeBtn = document.querySelector('#randomize-btn');
 const clearBtn = document.querySelector('#clear-btn');
-
+requeire('dotenv').config();
+console.log(process.env);
 
 let currentTab = '';
 let imagesData = [];
