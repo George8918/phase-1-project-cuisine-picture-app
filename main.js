@@ -12,7 +12,7 @@ let imagesData = [];
 
 
 function fetchImageData(cuisine) {
-  fetch(`https://pixabay.com/api/?key=36404956-dbea71482a1b61f69c95cb03c&q=${cuisine}&image_type=photo&per_page=100`)
+  fetch(`https://pixabay.com/api/?key=${API_KEY}&q=${cuisine}&image_type=photo&per_page=100`)
     .then(response => response.json())
     .then(data => {
       if (data.hits) {
