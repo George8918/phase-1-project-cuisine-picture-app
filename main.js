@@ -66,5 +66,5 @@ clearBtn.addEventListener('click', () => {
   displayImages(imagesData);
 });
 
-// Initial fetch
+
 fetchImageData(currentTab);
