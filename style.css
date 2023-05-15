@@ -28,8 +28,8 @@
     float: left;
     border: none;
     outline: none;
-    cursor: ;
-    padding: 1px 17px;
+    cursor: pointer;
+    padding: 16px 17px;
     transition: background-color 0.3s ease;
   }
   
@@ -42,7 +42,7 @@
     background-color: #ccc;
   }
   
-  /* Style the image container */
+  
   .image-container {
     display: flex;
     flex-wrap: wrap;
