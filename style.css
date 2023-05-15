@@ -28,8 +28,8 @@
     float: left;
     border: none;
     outline: none;
-    cursor: pointer;
-    padding: 16px 17px;
+    cursor: ;
+    padding: 1px 17px;
     transition: background-color 0.3s ease;
   }
   
