@@ -58,13 +58,10 @@ tabs.forEach(tab => {
   });
 });
 
-searchInput.addEventListener('input', () => {
-  filterImages(searchInput.value);
-});
 
 clearBtn.addEventListener('click', () => {
   searchInput.value = '';
-  displayImages(data-cuisine);
+  displayImages(imagesData);
 });
 
 // Initial fetch
