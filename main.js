@@ -63,7 +63,7 @@ searchInput.addEventListener('input', () => {
 });
 
 clearBtn.addEventListener('click', () => {
-  searchInput.value = '';
+  searchInput.value =;
   displayImages(imagesData);
 });
 
