@@ -7,7 +7,7 @@ const randomizeBtn = document.querySelector('#randomize-btn');
 const clearBtn = document.querySelector('#clear-btn');
 
 
-let currentTab = '';
+let currentTab = 'filtered image';
 let imagesData = [];
 
 
