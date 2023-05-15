@@ -53,7 +53,7 @@ function filterImages(query) {
 
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
-      currentTab = tab.getElementById('data-cuisine')
+      currentTab = tab.getAttribute('data-cuisine')
       fetchImageData(currentTab);
   });
 });
