@@ -7,7 +7,7 @@ const randomizeBtn = document.querySelector('#randomize-btn');
 const clearBtn = document.querySelector('#clear-btn');
 
 
-let currentTab = 'filtered image';
+let currentTab = '';
 let imagesData = [];
 
 
@@ -64,7 +64,7 @@ searchInput.addEventListener('input', () => {
 
 clearBtn.addEventListener('click', () => {
   searchInput.value = '';
-  displayImages(imagesData);
+  displayImages(data-cuisine);
 });
 
 // Initial fetch
