@@ -4,7 +4,7 @@ const tabs = document.querySelectorAll('.tablinks');
 const imagesContainer = document.querySelector('.image-container');
 const searchInput = document.querySelector('#search-input');
 const randomizeBtn = document.querySelector('#randomize-btn');
-const clearBtn = document.querySelector('#clear-');
+const clearBtn = document.querySelector('#clear-btn');
 
 
 let currentTab = '';
@@ -25,7 +25,7 @@ function fetchImageData(cuisine) {
         })
         displayImages(imagesData);
       } else {
-        console.log('No result found')
+        console.log('No result 404')
       }
     })
 }
